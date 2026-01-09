@@ -1,0 +1,49 @@
+baseURL = "https://eythan-decker.github.io/"
+languageCode = "en-us"
+title = "Eythan Decker"
+theme = "hugo-theme-stack"
+
+# Pagination
+paginate = 10
+
+# Copyright notice
+copyright = "© 2024 Eythan Decker"
+
+# Enable emoji support
+enableEmoji = true
+
+# Taxonomies
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+# Hugo Modules configuration
+[module]
+  [[module.imports]]
+    path = "github.com/CaiJimmy/hugo-theme-stack/v3"
+
+# Output formats for search
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# Permalink structure
+[permalinks]
+  post = "/p/:slug/"
+  page = "/:slug/"
+
+# Markup configuration for code highlighting
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = false
+    style = "monokai"
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = false
+    startLevel = 2

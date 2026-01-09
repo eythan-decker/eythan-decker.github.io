@@ -1,0 +1,78 @@
+# Main navigation menu
+[[main]]
+  identifier = "home"
+  name = "Home"
+  url = "/"
+  weight = 1
+  [main.params]
+    icon = "home"
+
+[[main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 2
+  [main.params]
+    icon = "user"
+
+[[main]]
+  identifier = "blog"
+  name = "Blog"
+  url = "/post/"
+  weight = 3
+  [main.params]
+    icon = "edit"
+
+[[main]]
+  identifier = "archives"
+  name = "Archives"
+  url = "/archives/"
+  weight = 4
+  [main.params]
+    icon = "archive"
+
+[[main]]
+  identifier = "search"
+  name = "Search"
+  url = "/search/"
+  weight = 5
+  [main.params]
+    icon = "search"
+
+[[main]]
+  identifier = "projects"
+  name = "Projects"
+  url = "/projects/"
+  weight = 6
+  [main.params]
+    icon = "code"
+
+[[main]]
+  identifier = "links"
+  name = "Links"
+  url = "/links/"
+  weight = 7
+  [main.params]
+    icon = "link"
+
+# Social links menu
+[[social]]
+  identifier = "github"
+  name = "GitHub"
+  url = "https://github.com/eythan-decker"
+  [social.params]
+    icon = "brand-github"
+
+[[social]]
+  identifier = "linkedin"
+  name = "LinkedIn"
+  url = "https://www.linkedin.com/in/eythandecker/"
+  [social.params]
+    icon = "brand-linkedin"
+
+[[social]]
+  identifier = "email"
+  name = "Email"
+  url = "mailto:eythandecker@gmail.com"
+  [social.params]
+    icon = "mail"

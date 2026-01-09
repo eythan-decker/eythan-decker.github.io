@@ -1,0 +1,37 @@
+# Hugo default output directory
+public/
+resources/
+
+# Hugo cache directory
+.hugo_build.lock
+
+# Temporary files
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE/Editor specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Node modules (if using npm for theme/tooling)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build artifacts
+dist/
+
+# Spec file (planning document, not for source control)
+spec.md
