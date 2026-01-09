@@ -1,6 +1,5 @@
 # Main page settings
 mainSections = ["post"]
-featuredImageField = "image"
 rssFullContent = true
 
 # Sidebar settings
@@ -11,17 +10,16 @@ rssFullContent = true
   [sidebar.avatar]
     enabled = true
     local = true
-    src = "img/avatar.svg"
+    src = "img/avatar.png"
 
 # Article settings
 [article]
   math = false
   readingTime = true
-  toc = true
-  license = false
+  headingAnchor = false
 
-  [article.featuredImage]
-    max = 1200
+  [article.license]
+    enabled = false
 
 # Comments (disabled for MVP)
 [comments]
@@ -53,10 +51,9 @@ rssFullContent = true
 [defaultImage.opengraph]
   enabled = false
 
-# Search configuration
-[search]
-  enable = true
-  type = "fuse"
-  [search.fuse]
-    minMatchCharLength = 2
-    threshold = 0.3
+# Image processing
+[imageProcessing.cover]
+  enabled = true
+
+[imageProcessing.content]
+  enabled = true
