@@ -81,6 +81,72 @@ When implementing or modifying features, use the Chrome MCP tools to verify the 
 4. Validate visual appearance against spec and requirements
 5. Test navigation, search, and interactive components
 
+## Implementation Planning
+
+**All work must use an implementation plan in a markdown file** to track progress, notes, issues, and next steps.
+
+### Purpose
+Implementation plans serve as:
+- Progress tracking across sessions
+- Issue documentation (what broke, how it was fixed)
+- Context preservation for future work
+- Verification checklist for testing
+
+### Plan File Structure
+Create `implementation-plan.md` (or `<feature-name>-plan.md`) in the repo root with:
+
+```markdown
+# [Feature/Task Name] - Implementation Plan
+
+## Implementation Status: [NOT STARTED | IN PROGRESS | COMPLETED]
+
+## Implementation Checklist
+- [ ] Phase 1: [Name]
+  - [ ] Step 1
+  - [ ] Step 2
+- [ ] Phase 2: [Name]
+
+## Issues Found & Fixed
+**Issue: [Description]**
+- Cause: [Root cause]
+- Fix: [Solution applied]
+
+## Browser Testing Checklist
+- [ ] Theme loads correctly
+- [ ] No console errors
+- [ ] All navigation works
+
+## Current Status (YYYY-MM-DD)
+**Status:** [Current state]
+**Branch:** [branch-name]
+**Commits:** [List key commits]
+
+## Current Issues
+[List any blocking or known issues]
+
+## Next Issue to Work On
+[Clear description of the next task]
+
+## Notes
+- [Important learnings]
+- [Configuration gotchas]
+- [Future considerations]
+```
+
+### When to Create a Plan
+- Any feature work (`feature/` branches)
+- Complex fixes requiring multiple steps
+- Chores involving multiple files or configuration changes
+- Any work spanning multiple sessions
+
+Blog posts (`blog/` branches) can use simplified tracking if needed.
+
+### Updating the Plan
+- Mark checkboxes as you complete steps
+- Document all errors/issues encountered
+- Update "Current Status" section regularly
+- Always record "Next Issue to Work On" before ending a session
+
 ## Branching Strategy
 
 **Main branch is protected** - never commit directly to `main`. All work must be done in separate branches and merged via pull request.
