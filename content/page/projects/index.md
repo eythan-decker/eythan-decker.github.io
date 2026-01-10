@@ -2,9 +2,6 @@
 title: "Projects"
 description: "Platform engineering projects, write-ups, and open-source contributions."
 date: 2024-01-08
-menu:
-  main:
-    weight: 6
 slug: "projects"
 ---
 

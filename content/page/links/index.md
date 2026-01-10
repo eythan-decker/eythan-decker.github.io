@@ -2,9 +2,6 @@
 title: "Links"
 description: "Connect with Eythan Decker - GitHub, LinkedIn, Email"
 date: 2024-01-08
-menu:
-  main:
-    weight: 7
 slug: "links"
 ---
 

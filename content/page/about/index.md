@@ -2,9 +2,6 @@
 title: "About"
 description: "Platform engineering leader focused on developer enablement, GitOps, and reliable delivery."
 date: 2024-01-08
-menu:
-  main:
-    weight: 2
 slug: "about"
 ---
 
