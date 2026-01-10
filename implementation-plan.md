@@ -258,6 +258,7 @@ Items to investigate after MVP is complete:
 **Commits:**
 1. Initial Hugo site setup with Stack theme (15 files)
 2. Fix Hugo configuration for v0.154 and Stack theme v3.33 compatibility (8 files)
+3. Add implementation planning requirement and update plan with completed MVP verification (2 files)
 
 **Environment:**
 - Hugo Extended v0.154.3 installed
