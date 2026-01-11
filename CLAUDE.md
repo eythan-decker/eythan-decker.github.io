@@ -22,6 +22,8 @@ config/
 content/
   page/            # Static pages (About, Projects, Links)
   post/            # Blog posts
+assets/
+  icons/           # Custom icon SVG files (Tabler Icons)
 static/
   img/             # Static images (avatar, etc.)
 themes/stack/      # Stack theme (git submodule or Hugo modules)
@@ -262,7 +264,52 @@ The Stack theme uses a sidebar layout with:
 - Built-in local search
 - Archive and taxonomy pages (categories/tags)
 
+### Social Icons Configuration
+
 Social links are configured in `config/_default/menu.toml` under `menu.social`.
+
+**Icon System (Tabler Icons):**
+- The Stack theme uses Tabler Icons (MIT-licensed SVG icon set)
+- Built-in icons include: `brand-github`, `search`, `home`, `tag`, `link`, etc.
+- Custom icons can be added by placing SVG files in `assets/icons/` directory
+
+**Adding Custom Icons:**
+1. Download SVG from [Tabler Icons](https://tabler.io/icons)
+2. Place in `assets/icons/` directory (e.g., `brand-linkedin.svg`, `mail.svg`)
+3. Reference in `menu.toml` using `[social.params]` syntax:
+
+```toml
+[[social]]
+  identifier = "github"
+  name = "GitHub"
+  url = "https://github.com/username"
+  [social.params]
+    icon = "brand-github"
+```
+
+**Note:** Icon filename must match the `icon` parameter exactly (e.g., `brand-linkedin` → `brand-linkedin.svg`)
+
+## Common Issues & Gotchas
+
+### Duplicate Navigation Links
+**Issue:** Navigation links appear twice in the sidebar
+
+**Cause:** Hugo merges menu entries from multiple sources:
+- `config/_default/menu.toml` (main configuration)
+- Content page frontmatter (`menu:` blocks)
+
+If the same menu item is defined in both places, Hugo will render it twice.
+
+**Solution:** Choose one source of truth:
+- **Recommended:** Define all menus in `menu.toml`, remove `menu:` blocks from page frontmatter
+- **Alternative:** Define menus only in page frontmatter (not recommended for non-content items like "Home")
+
+### Generic Social Icons
+**Issue:** Social links show generic link icons instead of branded icons
+
+**Cause:** No `icon` parameter specified in `menu.toml`
+
+**Solution:** Add `[social.params]` section with `icon = "icon-name"` parameter. Ensure the corresponding SVG file exists in `assets/icons/` directory.
 
 ## Deployment
 
