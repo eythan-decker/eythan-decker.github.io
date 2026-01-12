@@ -10,7 +10,7 @@ rssFullContent = true
   [sidebar.avatar]
     enabled = true
     local = true
-    src = "img/avatar.png"
+    src = "img/headshot.png"
 
 # Article settings
 [article]
