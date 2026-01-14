@@ -36,5 +36,7 @@ yarn.lock
 # Build artifacts
 dist/
 
-# Spec file (planning document, not for source control)
+# Planning and development documents (not for source control)
 spec.md
+implementation-plan.md
+USAGE.md

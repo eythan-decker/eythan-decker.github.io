@@ -26,7 +26,7 @@ Personal portfolio and blog site for platform engineering, developer enablement,
 
 ### Prerequisites
 
-- Hugo Extended v0.112.0 or later ([installation guide](https://gohugo.io/installation/))
+- Hugo Extended v0.124.0 or later ([installation guide](https://gohugo.io/installation/))
 - Git
 
 ### Local Development
@@ -190,7 +190,7 @@ Edit `config/_default/params.toml`:
   [sidebar.avatar]
     enabled = true
     local = true
-    src = "img/avatar.png"
+    src = "img/headshot.png"
 ```
 
 ### Navigation Links
@@ -271,7 +271,7 @@ This is a personal site, but suggestions and bug reports are welcome via issues.
 
 ## License
 
-Content is © 2024 Eythan Decker. Theme (Stack) is MIT licensed.
+Content is © 2026 Eythan Decker. Theme (Stack) is MIT licensed.
 
 ## Resources
 
