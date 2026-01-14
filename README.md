@@ -1,5 +1,7 @@
 # Eythan Decker - Portfolio & Blog
 
+![Deploy](https://github.com/eythan-decker/eythan-decker.github.io/actions/workflows/deploy.yml/badge.svg)
+
 Personal portfolio and blog site for platform engineering, developer enablement, and building reliable systems at scale.
 
 **Live Site:** [https://eythan-decker.github.io/](https://eythan-decker.github.io/)
