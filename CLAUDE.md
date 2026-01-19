@@ -20,7 +20,7 @@ config/
     menu.toml      # Navigation menus
     params.toml    # Theme parameters
 content/
-  page/            # Static pages (About, Projects, Links)
+  page/            # Static pages (About, Links)
   post/            # Blog posts
 assets/
   icons/           # Custom icon SVG files (Tabler Icons)
@@ -253,7 +253,6 @@ tags:
 
 ### Required Pages
 - `/about/` - Professional bio and highlights
-- `/projects/` - Project portfolio
 - `/links/` - Social links (GitHub, LinkedIn, Email)
 
 ## Theme Configuration Notes

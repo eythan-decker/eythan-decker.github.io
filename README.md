@@ -71,7 +71,7 @@ hugo --minify --gc
 │       ├── menu.toml      # Navigation menus
 │       └── params.toml    # Theme parameters
 ├── content/
-│   ├── page/              # Static pages (About, Projects, Links)
+│   ├── page/              # Static pages (About, Links)
 │   └── post/              # Blog posts
 ├── static/
 │   └── img/               # Static images (avatar, etc.)
