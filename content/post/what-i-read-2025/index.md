@@ -1,5 +1,6 @@
 ---
 title: "What I Read in 2025: Books That Shaped My Thinking"
+image: cover.png
 description: "A look at the books that influenced my thinking in 2025."
 date: 2025-01-19
 slug: "what-i-read-2025"
@@ -18,6 +19,8 @@ draft: true
 ## Introduction
 
 <!-- Why reading matters, what kind of books you gravitate toward -->
+
+![My 2025 reading stats from Goodreads](cover.png)
 
 ## The Books
 
