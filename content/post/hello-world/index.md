@@ -7,7 +7,7 @@ slug: "Hi, im Eythan"
 categories:
   - Notes
 tags:
-  - ai
+  - AI
   - platform-engineering
   - developer-experience
 draft: false
