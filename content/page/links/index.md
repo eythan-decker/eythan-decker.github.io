@@ -17,7 +17,7 @@ Professional profile, career history, and recommendations.
 
 ### Email
 **[eythandecker@gmail.com](mailto:eythandecker@gmail.com)**
-For professional inquiries, collaboration opportunities, or platform engineering discussions.
+For professional inquiries or platform engineering discussions.
 
 ---
 
