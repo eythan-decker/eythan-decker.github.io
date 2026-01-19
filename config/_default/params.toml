@@ -49,7 +49,7 @@ rssFullContent = true
 
 # Default image for OpenGraph/Twitter cards
 [defaultImage.opengraph]
-  enabled = false
+  enabled = true
 
 # Image processing
 [imageProcessing.cover]
