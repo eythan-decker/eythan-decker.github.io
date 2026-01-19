@@ -1,0 +1,25 @@
+// Custom Theme Overrides
+
+// Google Fonts import for Inter (headings only)
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap');
+
+// Accent Color: Cyan (#06B6D4)
+// Must match theme's specificity using :root and nested &[data-scheme]
+:root {
+    --accent-color: #06B6D4;
+    --accent-color-darker: #0891B2;
+    --accent-color-text: #fff;
+
+    &[data-scheme="dark"] {
+        --accent-color: #06B6D4;
+        --accent-color-darker: #22D3EE;
+        --accent-color-text: #000;
+    }
+}
+
+// Typography: Inter for headings
+h1, h2, h3, h4, h5, h6,
+.article-title,
+.section-title {
+    font-family: 'Inter', var(--base-font-family);
+}

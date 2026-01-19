@@ -1,0 +1,59 @@
+# Main page settings
+mainSections = ["post"]
+rssFullContent = true
+
+# Sidebar settings
+[sidebar]
+  emoji = "👨‍💻"
+  subtitle = "Platform engineering leader focused on developer enablement, GitOps, and reliable delivery."
+
+  [sidebar.avatar]
+    enabled = true
+    local = true
+    src = "img/headshot.png"
+
+# Article settings
+[article]
+  math = false
+  readingTime = true
+  headingAnchor = false
+
+  [article.license]
+    enabled = false
+
+# Comments (disabled for MVP)
+[comments]
+  enabled = false
+
+# Widgets configuration
+[[widgets.homepage]]
+  type = "search"
+
+[[widgets.homepage]]
+  type = "archives"
+  [widgets.homepage.params]
+    limit = 5
+
+[[widgets.homepage]]
+  type = "tag-cloud"
+  [widgets.homepage.params]
+    limit = 20
+
+[[widgets.page]]
+  type = "toc"
+
+# Color scheme (dark mode default)
+[colorScheme]
+  toggle = true
+  default = "dark"
+
+# Default image for OpenGraph/Twitter cards
+[defaultImage.opengraph]
+  enabled = true
+
+# Image processing
+[imageProcessing.cover]
+  enabled = true
+
+[imageProcessing.content]
+  enabled = true
