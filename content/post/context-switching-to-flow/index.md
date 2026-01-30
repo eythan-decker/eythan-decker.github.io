@@ -5,7 +5,7 @@ date: 2026-01-30
 slug: "context-switching-to-flow"
 image: cover.png
 categories:
-  - Platform Engineering
+ - Platform Engineering
 tags:
   - claude-code
   - AI
