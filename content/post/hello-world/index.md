@@ -2,7 +2,7 @@
 title: "Hi, im Eythan"
 image: cover.png
 description: "Why I'm starting this blog and what to expect."
-date: 2024-01-08
+date: 2026-01-08
 slug: "Hi, im Eythan"
 categories:
   - Notes
