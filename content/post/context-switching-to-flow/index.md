@@ -251,7 +251,7 @@ Atlassian MCP:
 `claude mcp add --transport sse atlassian [https://mcp.atlassian.com/v1/mcp](https://mcp.atlassian.com/v1/mcp)`
 
 Datadog MCP (requires org access):
-`claude mcp add --transport http datadog-mcp https://mcp.datadoghq.com/api/unstable/mcp-server/mcp
+`claude mcp add --transport http datadog-mcp https://mcp.datadoghq.com/api/unstable/mcp-server/mcp`
 
 ### Command examples
 
