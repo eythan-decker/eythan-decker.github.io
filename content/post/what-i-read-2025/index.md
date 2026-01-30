@@ -5,7 +5,7 @@ description: "A look at the books that influenced my thinking in 2025."
 date: 2026-01-19
 slug: "what-i-read-2025"
 categories:
-  - Notes
+  - Books
 tags:
 - books
 - personal growth
