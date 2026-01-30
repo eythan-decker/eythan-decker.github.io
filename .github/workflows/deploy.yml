@@ -24,7 +24,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     env:
-      HUGO_VERSION: 0.124.0
+      HUGO_VERSION: 0.139.0
       GO_VERSION: '1.21'
     steps:
       - name: Checkout code
